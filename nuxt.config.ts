@@ -4,5 +4,23 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-icon'
-  ]
+  ],
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
+    head: {
+      title: "AWJ Rust Server — Official Website",
+      meta: [
+        {
+          name: "description",
+          content: "Welcome to AWJ Rust Offical Website. Join our Best PVP and PVE Rust Server for ultimate rust experience."
+        }
+      ],
+      link: [
+        {
+          rel: "shortcut icon",
+          href: "/awj_logo.png"
+        }
+      ]
+    }
+  }
 })

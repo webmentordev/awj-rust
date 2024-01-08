@@ -40,7 +40,7 @@ h3 {
     @apply text-main;
 }
 .rules li{
-    @apply py-3 px-4 even:bg-dark-100 even:border-l border-main rounded-sm;
+    @apply py-3 px-4 even:bg-dark even:border-l border-main rounded-sm;
 }
 
 .config p{

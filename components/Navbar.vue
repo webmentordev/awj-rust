@@ -3,7 +3,7 @@
         <div class="max-w-4xl m-auto flex items-center rounded-md p-2 px-3 justify-between bg-black bg-opacity-30 backdrop-blur-lg border border-white/10">
             <NuxtLink to="/" class="flex items-center">
                 <img src="/awj_logo.png" width="45" alt="AWJ Logo">
-                <span class="ml-3 text-xl text-white/90 link">AWJ Rust Servers</span>
+                <span class="ml-3 text-xl text-white/90 link">AWJ Rust</span>
             </NuxtLink>
             <ul class="flex items-center text-white/90 link mr-3 690px:hidden">
                 <NuxtLink class="ml-7" to="/">Home</NuxtLink>
