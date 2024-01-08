@@ -6,7 +6,6 @@ export default defineNuxtConfig({
     'nuxt-icon'
   ],
   app: {
-    pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       title: "AWJ Rust Server — Official Website",
       meta: [
