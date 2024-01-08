@@ -6,8 +6,8 @@
                 <img src="/logo.webp" class="m-auto mb-6 w-full max-w-[400px] 480px:max-w-[250px] rounded-full" alt="Exile Logo">
                 <h1 class="text-center text-white mb-3 text-6xl">AWJ Rust Servers</h1>
                 <ul class="m-auto flex items-center justify-center">
-                    <NuxtLink class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block" to="steam://connect/188.244.117.121:28015"><Icon name="bi:steam" class="text-2xl mr-1" /> Connect</NuxtLink>
-                    <NuxtLink class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block" to="https://discord.gg/53dcrqWP8C" target="_blank"><Icon name="fa6-brands:discord" class="text-2xl mr-1" /> Discord</NuxtLink>
+                    <NuxtLink class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block" to="steam://connect/156.236.84.209:28015"><Icon name="bi:steam" class="text-2xl mr-1" /> 2X PVE Connect</NuxtLink>
+                    <NuxtLink class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block" to="steam://connect/156.236.84.197:28040"><Icon name="bi:steam" class="text-2xl mr-1" /> 3X PVP Connect</NuxtLink>
                 </ul>
             </div>
             <div class="bottom-3 right-3 absolute z-20">
