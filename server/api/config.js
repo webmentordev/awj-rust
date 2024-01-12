@@ -14,7 +14,7 @@ export default defineEventHandler(() => {
             "Remove Tool",
             "Extra Bag",
             "Starter Kits",
-            "VIP/Supporter Kits"
+            "VIP Kits"
         ],
         "pve": [
             "Recyclers are available on all monuments, including Dome, Ranch, and Large Barn.",

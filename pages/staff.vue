@@ -6,7 +6,7 @@
             <div class="grid gap-2 grid-cols-2 justify-center mt-5 mb-5 550px:grid-cols-1 550px:max-w-[300px] 550px:m-auto">
                 <div class=" text-white w-full">
                     <div class="bg-black p-6 rounded-lg relative group">
-                        <img class="mb-5 rounded-md group-hover:scale-125 transition-all w-full" src="https://avatars.cloudflare.steamstatic.com/665e0fad02db0481b813f0304a96296136467e2e_full.jpg">
+                        <img class="mb-5 rounded-md group-hover:scale-125 transition-all w-full" src="/chadder.png">
                         <div class="info">
                             <h2 class="text-center text-xl mb-2">AWJ Chedder</h2>
                             <span class="rounded-sm font-semibold p-2 text-sm px-3 bg-rust inline-block mb-3 w-full text-center">Owner (Console / PC Servers)</span>

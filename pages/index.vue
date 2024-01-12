@@ -9,6 +9,9 @@
                     <NuxtLink class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block" to="steam://connect/156.236.84.209:28015"><Icon name="bi:steam" class="text-2xl mr-1" /> 2X PVE Connect</NuxtLink>
                     <NuxtLink class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block" to="steam://connect/156.236.84.197:28040"><Icon name="bi:steam" class="text-2xl mr-1" /> 3X PVP Connect</NuxtLink>
                 </ul>
+                <div class="flex w-full items-center justify-center mt-3">
+                    <span class="m-auto cursor-pointer py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block" @click="console_toggle = !console_toggle"><Icon name="game-icons:console-controller" class="text-2xl mr-1" /> Console</span>
+                </div>
             </div>
             <div class="bottom-3 right-3 absolute z-20">
                 <div class="flex items-center">
@@ -37,6 +40,7 @@
                 </div>
             </div>
         </div>
+        <Console v-if="console_toggle" @console-toggle="console_toggle = !console_toggle" />
     </section>
 </template>
 
@@ -46,5 +50,7 @@
     
     let { data, pending } = await useFetch('/api/config');
     configs.value = data.value;
+    
+    const console_toggle = ref(false);
 
 </script>

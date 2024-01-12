@@ -28,7 +28,7 @@ export default defineEventHandler(() => {
             "Admins will never team up with other players",
             "Admins will never troll you",
             "No Trap Bases of any kind",
-            "No Swearing. It's PVE, so chill",
+            "No Swearing",
             "No Offensive names or clan tags",
             "No Cheating or Racism",
             "Teaming up with cheater get the whole team/clan banned"
