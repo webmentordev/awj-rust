@@ -29,7 +29,6 @@ export default defineEventHandler(() => {
             "Ore smelting in all types of furnaces is 5X, excluding Electric Furnaces",
             "All players have Tier 0 (DLC items) and Electric Blueprints unlocked. They do not get wiped, so there's no need to worry",
             "7 Minute Night time and 45 Minutes Daytime with No Sun Glare",
-            "You receive a mining quarry kit, allowing you to set up your own quarries and mine minerals. These quarries can be set up in all biome. These quarries are invincible (can not be damaged)",
             "Items will automatically split into slots in furnaces when the required fuel (wood) is present. Furnace Splitter",
             "Minicopters are equipped with two small storage boxes, each having more rows than a large storage box",
             "We have leaderboards for players to check playtime, resources gathered, PvP kills, etc",
