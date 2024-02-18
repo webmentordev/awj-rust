@@ -53,7 +53,6 @@ export default defineEventHandler(() => {
             "You can save homes as teleport point. There are limitations, 2 Homes, 120 Seconds Cooldown, 20 Seconds Countdown",
             "You can teleport to outpost. Remember we have Merged Bandit Camp in the outpost so just outpost teleportation is available. There are limitations, 120 Seconds Cooldown, 20 Seconds Countdown, 50 Daily TP Limit",
             "Buy your personal vehicles using scrap. These vehicles cannot be stolen by unauthorized players, only by teamates or clanmates. Purchase them once and keep them permanently, even after a wipe. Some vehicles are exclusive to the Elite rank",
-            "We have granted automatic door closing permissions for everyone. You can toggle it with the command",
             "The server is PVE, so looting boxes for players (unauthorized on TC) is not allowed. However, the owner can make them loot able for other players using these commands",
             "You can pick up your items without damaging them, including walls, quarries, etc. You will also receive a refund",
             "You can trade with players over the distance with the following command",
