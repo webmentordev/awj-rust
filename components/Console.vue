@@ -5,10 +5,10 @@
                 <h1 class="text-3xl mb-2">AWJ Console Rust Servers</h1>
                 <p class="text-white/80">List of our Console servers for Rust console only</p>
             </div>
-            <h2 class="text-2xl mb-1">Europe</h2>
+            <!-- <h2 class="text-2xl mb-1">Europe</h2>
             <p class="p-3 rounded-lg bg-dark mb-3">
                 AWJ PVP 3x/Solo/Duo/No BP/Monthly
-            </p>
+            </p> -->
             <h2 class="text-2xl mb-1">United States</h2>
             <p class="p-3 rounded-lg bg-dark mb-3">
                 AWJ PVP 3x/No BP/Monthly
