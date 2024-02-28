@@ -14,7 +14,6 @@
                 AWJ PVP 3x/No BP/Monthly
             </p>
             <ul class="list-disc ml-6">
-                <li>We have added Tier 3 All Round</li>
                 <li>No Blueprints</li>
                 <li>Instant Craft</li>
                 <li>Demolish Hammer</li>
