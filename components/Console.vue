@@ -11,7 +11,7 @@
             </p> -->
             <h2 class="text-2xl mb-1">United States</h2>
             <p class="p-3 rounded-lg bg-dark mb-3">
-                AWJ PVP 3x/No BP/Monthly
+                AWJ PVP 3x/No BP Wipe/Monthly
             </p>
             <ul class="list-disc ml-6">
                 <li>Instant Craft</li>
