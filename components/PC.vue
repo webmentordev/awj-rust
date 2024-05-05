@@ -9,7 +9,7 @@
             <p class="p-3 rounded-lg bg-dark mb-3">
                 connect 156.236.84.209:28015
             </p>
-            <h2 class="text-2xl mb-1">3X PVP</h2>
+            <h2 class="text-2xl mb-1">2X PVP</h2>
             <p class="p-3 rounded-lg bg-dark mb-3">
                 connect 156.236.84.197:28040
             </p>

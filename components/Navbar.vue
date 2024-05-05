@@ -11,7 +11,7 @@
                 <div class="relative">
                     <span class="ml-7 cursor-pointer flex items-center" @click="server = !server">Servers <Icon name="tabler:caret-down-filled" class="ml-1"/></span>
                     <ul class="absolute w-[200px] text-start right-0 top-9 rounded-lg text-white flex flex-col bg-dark p-6 link" v-if="server">
-                        <span class="pb-3 cursor-pointer border-b border-dark-100" @click="pc = !pc">PC Servers</span>
+                        <span class="pb-0 cursor-pointer border-none border-dark-100" @click="pc = !pc">PC Servers</span>
                         <!-- <span class="pt-3 cursor-pointer" @click="console_toggle = !console_toggle">Console</span> -->
                     </ul>
                 </div>

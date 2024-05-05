@@ -14,10 +14,6 @@
                     <h2 class="text-2xl text-main mb-2">Blueprints Wipe Schedule</h2>
                     <p class="text-white p-3 bg-dark rounded-md"><span class="text-main font-semibold">Force Wipe</span> - Every first Thursday of month</p>
                 </div>
-                <div class="p-3 bg-dark-100 mt-3 rounded-lg mb-3">
-                    <h2 class="text-2xl text-main mb-2">RP Wipe Schedule</h2>
-                    <p class="text-white p-3 bg-dark rounded-md">Every 2 Months</p>
-                </div>
             </div>
         </div>
     </section>

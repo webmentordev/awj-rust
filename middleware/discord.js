@@ -1,3 +1,3 @@
 export default defineNuxtRouteMiddleware(() => {
-    return navigateTo('https://discord.gg/4utbfzm224', { external: true })
+    return navigateTo('https://discord.gg/awj-rust', { external: true })
 })

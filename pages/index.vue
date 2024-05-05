@@ -7,11 +7,11 @@
                 <h1 class="text-center text-white mb-3 text-6xl">AWJ Rust Servers</h1>
                 <ul class="m-auto flex items-center justify-center">
                     <NuxtLink class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block" to="steam://connect/156.236.84.209:28015"><Icon name="bi:steam" class="text-2xl mr-1" /> 2X PVE Connect</NuxtLink>
-                    <NuxtLink class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block" to="steam://connect/156.236.84.197:28040"><Icon name="bi:steam" class="text-2xl mr-1" /> 3X PVP Connect</NuxtLink>
+                    <NuxtLink class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block" to="steam://connect/156.236.84.197:28040"><Icon name="bi:steam" class="text-2xl mr-1" /> 2X PVP Connect</NuxtLink>
                 </ul>
-                <div class="flex w-full items-center justify-center mt-3">
+                <!-- <div class="flex w-full items-center justify-center mt-3">
                     <span class="m-auto cursor-pointer py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block" @click="console_toggle = !console_toggle"><Icon name="game-icons:console-controller" class="text-2xl mr-1" /> Console</span>
-                </div>
+                </div> -->
             </div>
             <div class="bottom-3 right-3 absolute z-20">
                 <div class="flex items-center">
