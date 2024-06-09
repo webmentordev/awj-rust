@@ -1,7 +1,7 @@
 export default defineEventHandler(() => {
     return {
         "pvp": [
-            "3X Gather/Pickup/Mining",
+            "2X Gather/Pickup/Mining",
             "Furnace Splitter",
             "Quick Crafting and Recycle Time",
             "Fast Night time and Long Daytime",

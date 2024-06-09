@@ -28,14 +28,14 @@
             <p class="text-center text-white mb-3">Here is the configuration that we use for our server. <br> Feel free to read all. It may come handy because we have so much <br> to offer. Commands are also mentioned below the configuration</p>
             <p v-if="pending" class="text-center link text-white">Loading...</p>
             <div v-else class="max-w-2xl m-autopx-4 text-white m-auto config">
-                <div class="flex items-center mb-3">
+                <!-- <div class="flex items-center mb-3">
                     <button class="w-full py-2 rounded-xl px-4 mr-3 border-main bg-main/10" :class="{ 'border': server == 'pvp' }" @click="server = 'pvp'">PVP</button>
                     <button class="w-full py-2 rounded-xl px-4 border-main bg-main/10" :class="{ 'border': server == 'pve' }" @click="server = 'pve'">PVE</button>
                 </div>
                 <div class="p-3 py-4 rounded-lg bg-dark-100 mb-4" v-for="(config, index) in configs.pve" :key="index" v-if="server == 'pve'">
                     <p class="w-full p-3 bg-dark rounded-lg">{{ config }}</p>
-                </div>
-                <div class="p-3 py-4 rounded-lg bg-dark-100 mb-4" v-for="(config, index) in configs.pvp" :key="index" v-if="server == 'pvp'">
+                </div> -->
+                <div class="p-3 py-4 rounded-lg bg-dark-100 mb-4" v-for="(config, index) in configs.pvp" :key="index">
                     <p class="w-full p-3 bg-dark rounded-lg">{{ config }}</p>
                 </div>
             </div>
@@ -46,7 +46,7 @@
 
 <script setup>
     const configs = ref(null);
-    const server = ref("pve");
+    const server = ref("pvp");
     
     let { data, pending } = await useFetch('/api/config');
     configs.value = data.value;
