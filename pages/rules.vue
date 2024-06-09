@@ -12,17 +12,17 @@
                     <p class="mb-6">Compliance with the mentioned rules is imperative, and it is crucial to be aware that some offenses cannot be appealed. Therefore, it is important to exercise caution and attentiveness to ensure adherence to the rules.</p>
                     <p v-if="pending" class="text-center py-12 px-3">Loading...</p>
                     <div v-else>
-                        <ul class="grid grid-cols-2 gap-3 mb-3">
+                        <!-- <ul class="grid grid-cols-2 gap-3 mb-3">
                             <button @click="active = true" class="text-black font-semibold py-2 rounded-lg" :class="{ 'bg-main': active, 'bg-white': !active }">PVE</button>
                             <button @click="active = false" class="text-black font-semibold py-2 rounded-lg" :class="{ 'bg-main': !active, 'bg-white': active }" >PVP</button>
-                        </ul>
-                        <div class="bg-dark-100 p-6 rounded-lg" v-if="active">
+                        </ul> -->
+                        <!-- <div class="bg-dark-100 p-6 rounded-lg" v-if="active">
                             <h3 class="text-3xl">PVE Server Rules</h3>
                             <ul class="rules">
                                 <li v-for="(rule, index) in rules.pve" :key="index">{{ rule }}</li>
                             </ul>
-                        </div>
-                        <div class="bg-dark-100 p-6 rounded-lg" v-else>
+                        </div> -->
+                        <div class="bg-dark-100 p-6 rounded-lg">
                             <h3 class="text-3xl">PVP Server Rules</h3>
                             <ul class="rules">
                                 <li v-for="(rule, index) in rules.pvp" :key="index">{{ rule }}</li>
