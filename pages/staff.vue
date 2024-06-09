@@ -9,7 +9,7 @@
                         <img class="mb-5 rounded-md group-hover:scale-125 transition-all w-full" src="/chadder.png">
                         <div class="info">
                             <h2 class="text-center text-xl mb-2">AWJ Chedder</h2>
-                            <span class="rounded-sm font-semibold p-2 text-sm px-3 bg-rust inline-block mb-3 w-full text-center">Owner (Console / PC Servers)</span>
+                            <span class="rounded-sm font-semibold p-2 text-sm px-3 bg-rust inline-block mb-3 w-full text-center">Owner (PC Servers)</span>
                             <div class="flex text-md items-center justify-center">
                                 <Icon class="mr-2" name="logos:discord-icon" />
                                 <span class="text-sm">awjchedder</span>

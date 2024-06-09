@@ -5,10 +5,10 @@
                 <h1 class="text-3xl mb-2">AWJ PC Rust Servers</h1>
                 <p class="text-white/80">List of our PC servers for Rust on Steam only</p>
             </div>
-            <h2 class="text-2xl mb-1">2X PVE</h2>
+            <!-- <h2 class="text-2xl mb-1">2X PVE</h2>
             <p class="p-3 rounded-lg bg-dark mb-3">
                 connect 156.236.84.209:28015
-            </p>
+            </p> -->
             <h2 class="text-2xl mb-1">2X PVP</h2>
             <p class="p-3 rounded-lg bg-dark mb-3">
                 connect 156.236.84.197:28040
