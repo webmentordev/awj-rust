@@ -29,7 +29,7 @@
                 <div class="flex flex-col p-3 max-w-lg m-auto rounded-lg mt-6 bg-dark relative">
                     <h3 v-if="server_pve.status == 'online'" class="bg-gree-600/20 text-white absolute top-5 left-5 bg-dark py-2 px-4 flex items-center rounded-lg"><span class="p-[6px] -mt-1 mr-2 bg-green-600 h-fit w-fit rounded-full"></span> {{ server_pve.status }}</h3>
                     <h3 v-else class="bg-gree-600/20 text-white absolute top-5 left-5 bg-dark py-2 px-4 flex items-center rounded-lg"><span class="p-[6px] -mt-1 mr-2 bg-red-600 h-fit w-fit rounded-full"></span> {{ server_pve.status }}</h3>
-                    <img :src="server_pve.details.rust_headerimage" class="rounded-lg" alt="Rusty Uranium Header Image">
+                    <img src="https://api.rustyuranium.online/api/files/1pmot3sjdt94wfe/8tkcx8sgn9efo1f/awj_banner_2_cgGtny5Vmg.png" class="rounded-lg" alt="Rusty Uranium Header Image">
                     <div class="p-3">
                         <h2 class="text-white mt-3 text-2xl">{{ server_pve.name }}</h2>
                         <div class="m-auto 510px:text-start 510px:m-0 w-fit flex 510px:flex-col text-white border-l-main 510px:border-l">
