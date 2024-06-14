@@ -4,8 +4,9 @@
         <div class="relative z-10 max-w-6xl m-auto py-[140px] px-4">
             <h1 class="text-6xl text-white text-center">Our Servers</h1>
             <p class="text-white/80 text-center">Our Current Selection Of Rust Servers</p>
-            <div class="grid grid-cols-2 gap-3 800px:grid-cols-1" v-if="server_pvp && server_pve">
-                <div class="flex flex-col p-3 max-w-lg m-auto rounded-lg mt-6 bg-dark relative">
+
+            <div class="grid grid-cols-1 gap-3 800px:grid-cols-1" v-if="server_pvp">
+                <!-- <div class="flex flex-col p-3 max-w-lg m-auto rounded-lg mt-6 bg-dark relative">
                     <h3 v-if="server_pvp.status == 'online'" class="bg-gree-600/20 text-white absolute top-5 left-5 bg-dark py-2 px-4 flex items-center rounded-lg"><span class="p-[6px] -mt-1 mr-2 bg-green-600 h-fit w-fit rounded-full"></span> {{ server_pvp.status }}</h3>
                     <h3 v-else class="bg-gree-600/20 text-white absolute top-5 left-5 bg-dark py-2 px-4 flex items-center rounded-lg"><span class="p-[6px] -mt-1 mr-2 bg-red-600 h-fit w-fit rounded-full"></span> {{ server_pvp.status }}</h3>
                     <img :src="server_pvp.details.rust_headerimage" class="rounded-lg" alt="Rusty Uranium Header Image">
@@ -23,7 +24,7 @@
                         <p class="relative text-white text-sm font-semibold">{{ server_pvp.players }}/{{ server_pvp.maxPlayers }}</p>
                     </div>
                     <NuxtLink :to='`steam://connect/${server_pvp.ip}:${server_pvp.port}`' class="link bg-main w-full text-center py-3 text-lg rounded-lg hover:text-white hover:bg-black transition-all" target="_blank" rel="nofollow">Connect</NuxtLink>
-                </div>
+                </div> -->
 
                 <div class="flex flex-col p-3 max-w-lg m-auto rounded-lg mt-6 bg-dark relative">
                     <h3 v-if="server_pve.status == 'online'" class="bg-gree-600/20 text-white absolute top-5 left-5 bg-dark py-2 px-4 flex items-center rounded-lg"><span class="p-[6px] -mt-1 mr-2 bg-green-600 h-fit w-fit rounded-full"></span> {{ server_pve.status }}</h3>
@@ -56,12 +57,15 @@
 <script setup>
     const server_pvp = ref(null);
     const server_pve = ref(null);
+
+    await $fetch("https://api.battlemetrics.com/servers/24982679").then(result => {
+        server_pvp.value = result.data.attributes;
+    });
+    await $fetch("https://api.battlemetrics.com/servers/24578823").then(result => {
+        server_pve.value = result.data.attributes;
+    });
+
     onMounted(() => {
-        $fetch("https://api.battlemetrics.com/servers/24982679").then(result => {
-            server_pvp.value = result.data.attributes;
-        });
-        $fetch("https://api.battlemetrics.com/servers/24578823").then(result => {
-            server_pve.value = result.data.attributes;
-        });
+        
     })
 </script>

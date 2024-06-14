@@ -8,6 +8,7 @@
             <ul class="flex items-center text-white/90 link mr-3 690px:hidden">
                 <NuxtLink class="ml-7" to="/">Home</NuxtLink>
                 <NuxtLink class="ml-7" to="/staff">Staff</NuxtLink>
+                <NuxtLink class="ml-7" to="/servers">Status</NuxtLink>
                 <div class="relative">
                     <span class="ml-7 cursor-pointer flex items-center" @click="server = !server">Servers <Icon name="tabler:caret-down-filled" class="ml-1"/></span>
                     <ul class="absolute w-[200px] text-start right-0 top-9 rounded-lg text-white flex flex-col bg-dark p-6 link" v-if="server">
@@ -17,7 +18,7 @@
                 </div>
                 <NuxtLink class="ml-7" to="/wipe">Wipe</NuxtLink>
                 <NuxtLink class="ml-7" to="/rules">Rules</NuxtLink>
-                <NuxtLink class="ml-7" to="https://shop.awjrust.com/" target="_blank">Store</NuxtLink>
+                <NuxtLink class="ml-7" to="https://awj.tip4serv.com/" target="_blank">Store</NuxtLink>
                 <NuxtLink class="ml-7" to="/discord">Discord</NuxtLink>
             </ul>
             <div class="690px:block hidden relative">
@@ -28,7 +29,7 @@
                     <NuxtLink class="py-3 border-b border-dark-100" to="/servers">Servers</NuxtLink>
                     <NuxtLink class="py-3 border-b border-dark-100" to="/wipe">Wipe</NuxtLink>
                     <NuxtLink class="py-3 border-b border-dark-100" to="/rules">Rules</NuxtLink>
-                    <NuxtLink class="py-3 border-b border-dark-100" to="https://shop.awjrust.com/" target="_blank">Store</NuxtLink>
+                    <NuxtLink class="py-3 border-b border-dark-100" to="https://awj.tip4serv.com/" target="_blank">Store</NuxtLink>
                     <NuxtLink class="pt-3" to="/discord">Discord</NuxtLink>
                 </ul>
             </div>
