@@ -12,7 +12,7 @@
                     <NuxtLink
                         class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block"
                         to="steam://connect/185.206.151.2:28015">
-                        <Icon name="bi:steam" class="text-2xl mr-1" /> 2X PVP Connect
+                        <Icon name="bi:steam" class="text-2xl mr-1" /> PVP Connect
                     </NuxtLink>
                 </ul>
                 <!-- <div class="flex w-full items-center justify-center mt-3">
