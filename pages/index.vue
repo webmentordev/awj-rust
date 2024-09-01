@@ -6,7 +6,7 @@
             <div class="relative z-10 px-4">
                 <img src="/logo.webp" class="m-auto mb-6 w-full max-w-[400px] 480px:max-w-[250px] rounded-full"
                     alt="Exile Logo">
-                <h1 class="text-center text-white mb-3 text-6xl">AWJ Rust Servers</h1>
+                <h1 class="text-center text-white mb-3 text-6xl">AWJ Rust Server</h1>
                 <ul class="m-auto flex items-center justify-center">
                     <!-- <NuxtLink class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block" to="steam://connect/185.206.151.2:28015"><Icon name="bi:steam" class="text-2xl mr-1" /> 2X PVE Connect</NuxtLink> -->
                     <NuxtLink
