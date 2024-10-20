@@ -39,19 +39,65 @@
             <p class="text-center text-white mb-3">Here is the configuration that we use for our server. <br> Feel free
                 to read all. It may come handy because we have so much <br> to offer. Commands are also mentioned below
                 the configuration</p>
-            <p v-if="pending" class="text-center link text-white">Loading...</p>
+            <div class="max-w-2xl m-autopx-4 text-white m-auto config">
+                <div class="p-3 py-4 rounded-lg bg-dark-100 mb-4">
+                    <p class="w-full p-3 bg-dark rounded-lg">AWJ PVP Info</p>
+                    <div class="p-3">
+                        <h3 class="text-2xl">Welcome To AWJ Rust.</h3>
+                        <p class="leading-8 flex flex-col">
+                            Our Servers Are Hosted On Dedicated Server For Smoother Connection.
+                            This Is A PVP Server Which Means You Can Be Killed By Other Players
+                            Anytime.
+                            PVP Can Be Brutal, With Toxic Clans, Players, And Large Zergs Making The Experience
+                            Unenjoyable.
+                            However, This Server Is Not Like That Its A Chilled Place For New/Old Players.
+                            We Have Many Things Added To Make The Server Fun And Assist Newer Players,
+                            There Are Many Random Events And A Skill Tree Where Player Can Upgrade Their Stats.
+                            AWJ is Currently Running A New Test Map So Any Issues You Find Please Report Them In
+                            Discord.
+                            <br>
+                            Information About Plugins And Addons Are Displayed In Discord
+                            <br>
+                        </p>
+                        <code class="mt-3">Server IP: 185.206.151.242:28015</code>
+                    </div>
+                </div>
+
+                <div class="p-3 py-4 rounded-lg bg-dark-100 mb-4">
+                    <p class="w-full p-3 bg-dark rounded-lg">AWJ PVE/PVP Info</p>
+                    <div class="p-3">
+                        <p class="leading-8 flex flex-col">
+                            Join The Ultimate Rust experience designed for both competitive and casual players.
+                            Experience a perfect blend of PVP and PVE action, <br>
+                            Whether you're a seasoned survivor or just getting started, our server is packed with
+                            features
+                            To ensure non-stop action, progression, and customization,
+                            To make every playthrough Enjoyable For You And Your Team.
+                            Whether you're looking to dominate in raids, build your dream base or engage in exciting
+                            events,
+                            <br>
+                            AWJ offers something for everyone, Don't miss out on the action, grab your gear and jump in!
+                            <br>
+                        </p>
+                        <code class="mt-3">Server IP: 185.206.151.242:28025</code>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <p v-if="pending" class="text-center link text-white">Loading...</p>
             <div v-else class="max-w-2xl m-autopx-4 text-white m-auto config">
-                <!-- <div class="flex items-center mb-3">
+                <div class="flex items-center mb-3">
                     <button class="w-full py-2 rounded-xl px-4 mr-3 border-main bg-main/10" :class="{ 'border': server == 'pvp' }" @click="server = 'pvp'">PVP</button>
                     <button class="w-full py-2 rounded-xl px-4 border-main bg-main/10" :class="{ 'border': server == 'pve' }" @click="server = 'pve'">PVE</button>
                 </div>
                 <div class="p-3 py-4 rounded-lg bg-dark-100 mb-4" v-for="(config, index) in configs.pve" :key="index" v-if="server == 'pve'">
                     <p class="w-full p-3 bg-dark rounded-lg">{{ config }}</p>
-                </div> -->
+                </div>
                 <div class="p-3 py-4 rounded-lg bg-dark-100 mb-4" v-for="(config, index) in configs.pvp" :key="index">
                     <p class="w-full p-3 bg-dark rounded-lg">{{ config }}</p>
                 </div>
-            </div>
+            </div> -->
         </div>
         <Console v-if="console_toggle" @console-toggle="console_toggle = !console_toggle" />
     </section>
