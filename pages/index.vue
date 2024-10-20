@@ -35,10 +35,9 @@
         </div>
 
         <div class="w-full bg-dark py-12 px-4">
-            <h2 class="text-main text-center mb-4 text-5xl">Our Server Configuration</h2>
-            <p class="text-center text-white mb-3">Here is the configuration that we use for our server. <br> Feel free
-                to read all. It may come handy because we have so much <br> to offer. Commands are also mentioned below
-                the configuration</p>
+            <h2 class="text-main text-center mb-4 text-5xl">Our Server Information</h2>
+            <p class="text-center text-white mb-3">Here is the Information that we use for our server. <br> Feel free
+                to read all. It may come handy because we have so much to offer.</p>
             <div class="max-w-2xl m-autopx-4 text-white m-auto config">
                 <div class="p-3 py-4 rounded-lg bg-dark-100 mb-4">
                     <p class="w-full p-3 bg-dark rounded-lg">AWJ PVP Info</p>
