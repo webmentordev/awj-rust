@@ -7,13 +7,13 @@
                 <h1 class="text-3xl mb-2">AWJ PC Rust Server</h1>
                 <p class="text-white/80">List of our PC servers for Rust on Steam only</p>
             </div>
-            <!-- <h2 class="text-2xl mb-1">2X PVE</h2>
+            <h2 class="text-2xl mb-1">Our PVE Server</h2>
             <p class="p-3 rounded-lg bg-dark mb-3">
-                connect 185.206.151.2:28015
-            </p> -->
+                connect 185.206.151.242:28025
+            </p>
             <h2 class="text-2xl mb-1">Our PVP Server</h2>
             <p class="p-3 rounded-lg bg-dark mb-3">
-                connect 185.206.151.2:28015
+                connect 185.206.151.242:28015
             </p>
         </div>
     </section>
