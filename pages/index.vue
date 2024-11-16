@@ -10,12 +10,12 @@
                 <ul class="m-auto flex items-center justify-center">
                     <NuxtLink
                         class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block"
-                        to="steam://connect/185.206.151.242:28025">
+                        to="steam://connect/156.236.84.59:27000">
                         <Icon name="bi:steam" class="text-2xl mr-1" /> PVE Connect
                     </NuxtLink>
                     <NuxtLink
                         class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block"
-                        to="steam://connect/185.206.151.242:28015">
+                        to="steam://connect/156.236.84.59:27004">
                         <Icon name="bi:steam" class="text-2xl mr-1" /> PVP Connect
                     </NuxtLink>
                 </ul>

@@ -92,10 +92,10 @@
 const server_pvp = ref(null);
 const server_pve = ref(null);
 
-await $fetch("https://api.battlemetrics.com/servers/29508404").then(result => {
+await $fetch("https://api.battlemetrics.com/servers/30408025").then(result => {
     server_pvp.value = result.data.attributes;
 });
-await $fetch("https://api.battlemetrics.com/servers/29508402").then(result => {
+await $fetch("https://api.battlemetrics.com/servers/30407514").then(result => {
     server_pve.value = result.data.attributes;
 });
 
