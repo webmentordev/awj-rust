@@ -9,12 +9,12 @@
             </div>
             <h2 class="text-2xl mb-1">Our PVE Server</h2>
             <p class="p-3 rounded-lg bg-dark mb-3">
-                connect 156.236.84.59:27000
+                connect 156.236.84.56:28025
             </p>
-            <h2 class="text-2xl mb-1">Our PVP Server</h2>
+            <!-- <h2 class="text-2xl mb-1">Our PVP Server</h2>
             <p class="p-3 rounded-lg bg-dark mb-3">
                 connect 156.236.84.59:27004
-            </p>
+            </p> -->
         </div>
     </section>
 </template>

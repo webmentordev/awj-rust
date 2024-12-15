@@ -10,14 +10,14 @@
                 <ul class="m-auto flex items-center justify-center">
                     <NuxtLink
                         class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block"
-                        to="steam://connect/156.236.84.59:27000">
+                        to="steam://connect/156.236.84.56:28025">
                         <Icon name="bi:steam" class="text-2xl mr-1" /> PVE Connect
                     </NuxtLink>
-                    <NuxtLink
+                    <!-- <NuxtLink
                         class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block"
                         to="steam://connect/156.236.84.59:27004">
                         <Icon name="bi:steam" class="text-2xl mr-1" /> PVP Connect
-                    </NuxtLink>
+                    </NuxtLink> -->
                 </ul>
                 <!-- <div class="flex w-full items-center justify-center mt-3">
                     <span class="m-auto cursor-pointer py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block" @click="console_toggle = !console_toggle"><Icon name="game-icons:console-controller" class="text-2xl mr-1" /> Console</span>
@@ -39,7 +39,7 @@
             <p class="text-center text-white mb-3">Here is the Information that we use for our server. <br> Feel free
                 to read all. It may come handy because we have so much to offer.</p>
             <div class="max-w-2xl m-autopx-4 text-white m-auto config">
-                <div class="p-3 py-4 rounded-lg bg-dark-100 mb-4">
+                <!-- <div class="p-3 py-4 rounded-lg bg-dark-100 mb-4">
                     <p class="w-full p-3 bg-dark rounded-lg">AWJ PVP Info</p>
                     <div class="p-3">
                         <h3 class="text-2xl">Welcome To AWJ Rust.</h3>
@@ -60,7 +60,7 @@
                         </p>
                         <code class="mt-3">Server IP: 185.206.151.242:28015</code>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="p-3 py-4 rounded-lg bg-dark-100 mb-4">
                     <p class="w-full p-3 bg-dark rounded-lg">AWJ PVE/PVP Info</p>
@@ -78,7 +78,7 @@
                             AWJ offers something for everyone, Don't miss out on the action, grab your gear and jump in!
                             <br>
                         </p>
-                        <code class="mt-3">Server IP: 185.206.151.242:28025</code>
+                        <code class="mt-3">Server IP: 156.236.84.56:28025</code>
                     </div>
                 </div>
             </div>

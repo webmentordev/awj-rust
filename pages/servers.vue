@@ -6,8 +6,8 @@
             <h1 class="text-6xl text-white text-center">Our Servers</h1>
             <p class="text-white/80 text-center">Our Current Selection Of Rust Servers</p>
 
-            <div class="grid grid-cols-2 gap-3 800px:grid-cols-1" v-if="server_pvp">
-                <div class="flex flex-col p-3 max-w-lg m-auto rounded-lg mt-6 bg-dark relative">
+            <div class="grid grid-cols-1 gap-3 800px:grid-cols-1" v-if="server_pvp">
+                <!-- <div class="flex flex-col p-3 max-w-lg m-auto rounded-lg mt-6 bg-dark relative">
                     <h3 v-if="server_pvp.status == 'online'"
                         class="bg-gree-600/20 text-white absolute top-5 left-5 bg-dark py-2 px-4 flex items-center rounded-lg">
                         <span class="p-[6px] -mt-1 mr-2 bg-green-600 h-fit w-fit rounded-full"></span> {{
@@ -19,7 +19,7 @@
                             server_pvp.status }}
                     </h3>
                     <img :src="server_pvp.details.rust_headerimage" class="rounded-lg" alt="Rusty Uranium Header Image">
-                    <!-- <img src="server_pvp.details.rust_headerimage" class="rounded-lg" alt="Rusty Uranium Header Image"> -->
+                    <img src="server_pvp.details.rust_headerimage" class="rounded-lg" alt="Rusty Uranium Header Image">
                     <div class="p-3">
                         <h2 class="text-white mt-3 text-2xl">{{ server_pvp.name }}</h2>
                         <div
@@ -42,7 +42,7 @@
                     <NuxtLink :to='`steam://connect/${server_pvp.ip}:${server_pvp.port}`'
                         class="link bg-main w-full text-center py-3 text-lg rounded-lg hover:text-white hover:bg-black transition-all"
                         target="_blank" rel="nofollow">Connect</NuxtLink>
-                </div>
+                </div> -->
 
                 <div class="flex flex-col p-3 max-w-lg m-auto rounded-lg mt-6 bg-dark relative">
                     <h3 v-if="server_pve.status == 'online'"
@@ -95,7 +95,7 @@ const server_pve = ref(null);
 await $fetch("https://api.battlemetrics.com/servers/30408025").then(result => {
     server_pvp.value = result.data.attributes;
 });
-await $fetch("https://api.battlemetrics.com/servers/30407514").then(result => {
+await $fetch("https://api.battlemetrics.com/servers/30772752").then(result => {
     server_pve.value = result.data.attributes;
 });
 
