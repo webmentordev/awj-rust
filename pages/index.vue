@@ -10,7 +10,7 @@
                 <ul class="m-auto flex items-center justify-center">
                     <NuxtLink
                         class="mr-2 py-3 rounded hover:text-black hover:bg-main transition-all px-6 bg-dark link text-white text-xl inline-block"
-                        to="steam://connect/156.236.84.56:28025">
+                        to="steam://connect/89.213.214.9:28040">
                         <Icon name="bi:steam" class="text-2xl mr-1" /> PVE Connect
                     </NuxtLink>
                     <!-- <NuxtLink
@@ -78,7 +78,7 @@
                             AWJ offers something for everyone, Don't miss out on the action, grab your gear and jump in!
                             <br>
                         </p>
-                        <code class="mt-3">Server IP: 156.236.84.56:28025</code>
+                        <code class="mt-3">Server IP: 89.213.214.9:28040</code>
                     </div>
                 </div>
             </div>
